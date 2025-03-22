@@ -3,6 +3,18 @@
     {
       "src": "index.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "src/style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/main.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/counter.js",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
