@@ -6,5 +6,8 @@ export default defineConfig({
     fs: {
       strict: false
     }
+  },
+  build: {
+    outDir: 'dist'
   }
 });
